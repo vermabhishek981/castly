@@ -144,7 +144,7 @@ export function CharacterList() {
       );
     }
     return (
-      <Card className="bg-card/50 backdrop-blur-sm border-border py-0 max-h-[88%] overflow-y-auto max-w-[600]">
+      <Card className="bg-card/50 backdrop-blur-sm border-border py-0 max-h-[88%] overflow-y-auto">
         {isLoading ? (
           <div className="p-6 space-y-4">
             {Array.from({ length: 5 }).map((_, i) => (
